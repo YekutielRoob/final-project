@@ -4,7 +4,7 @@ import React, { Component } from 'react';
   render() {
     return (
       <div>
-        <input placeholder="search" id="searchbox" required></input>
+        <input placeholder="search1" id="searchbox" required></input>
       </div>
     );
   }
