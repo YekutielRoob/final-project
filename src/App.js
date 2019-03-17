@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import Navbar from "./navbar"
+import Navbar from "./component/navbar/navbar.js"
 
-import ReactDOM from 'react-dom'
 
 
 class App extends Component {
