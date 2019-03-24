@@ -5,7 +5,8 @@ import React, { Component } from 'react';
     return (
       <div>
 
-      <input placeholder="search" id="searchbox" required></input>
+        <input type="text" placeholder="search"  id="searchbar" >
+       </input>
 
 
       </div>
