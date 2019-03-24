@@ -11,6 +11,7 @@ import { Logo } from './logo';
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/900px-Facebook_logo_%28square%29.png">
         </img>      
       </a>  
+      <img src="https://img.icons8.com/ios-glyphs/30/000000/search.png" className="searchbutton"></img>
       </h1>       
        </div>
     );

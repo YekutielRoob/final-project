@@ -30,3 +30,12 @@ img {
   margin-left: 100px;
 
 }
+.searchbutton {
+  margin-left:280px;
+  color: gray;
+  border: solid 1px black;
+  position: absolute;
+  margin-right: 100px;
+  top: 0;
+  z-index: 1;
+}
