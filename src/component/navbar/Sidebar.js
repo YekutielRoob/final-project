@@ -5,7 +5,7 @@ import ListGroup from 'react-bootstrap/ListGroup'
 class Sidebar extends Component {
   render() {
     return (
-      <div clas="listgroup">
+      <div className="listgroup">
       <ListGroup> 
       <ListGroup.Item action variant="info">
     Light

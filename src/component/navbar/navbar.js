@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Button from 'react-bootstrap/Button';
 
 
+
  class Navbar extends Component {
   render() {
     return (
@@ -16,41 +17,38 @@ import Button from 'react-bootstrap/Button';
       <div class="nav1">
         <ul>
           <li className="Button">
-          <Button href="http://www.facebook.com" bsStyle="primary">Home</Button>
+          <Button href="http://www.facebook.com" bsStyle="primary" >John Doe</Button>
           </li>
           <li>
-          <Button href="#" bsStyle="primary">Initial</Button>
+          <Button href="#" bsStyle="primary">Home</Button>
           </li>
           <li>
           <Button href="" bsStyle="primary">Create</Button>
           </li>
         </ul>
-      
-    
-        
+        <div class="hero-image">
+        <img src="https://st2.depositphotos.com/1104517/11967/v/950/depositphotos_119675554-stock-illustration-male-avatar-profile-picture-vector.jpg" alt="avatar" class="avatar"/>
+      <div class="hero-text">
+      <h1></h1>
+    <p>It's simple until you make it complicated.</p>
+    <div className="Buttonshero">
+    <button>About</button>
+    <button>Friends</button>
+    <button>Photos</button>
+    <button>More</button>
+    </div>
+    </div>
 
-
-  
-  
- 
-
-
-  
-  
-
-
- 
+      </div>
 
       </div> 
       </div>
-      
-
-    
-
-
-
+  
     );
   }
+
+
+  
 }
 
 export default Navbar
