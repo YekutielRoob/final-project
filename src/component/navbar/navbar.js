@@ -32,10 +32,10 @@ import Button from 'react-bootstrap/Button';
       <h1></h1>
     <p>It's simple until you make it complicated.</p>
     <div className="Buttonshero">
-    <button>About</button>
-    <button>Friends</button>
-    <button>Photos</button>
-    <button>More</button>
+    <Button href="#" bsStyle="primary">About</Button>
+    <Button href="#" bsStyle="primary">Friends</Button>
+    <Button href="#" bsStyle="primary">Photos</Button>
+    <Button href="#" bsStyle="primary">More</Button>
     </div>
     </div>
 
