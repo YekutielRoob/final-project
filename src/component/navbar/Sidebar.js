@@ -6,6 +6,7 @@ class Sidebar extends Component {
   render() {
     return (
       <div className="listgroup">
+
      <div class="sidebar">
      <Nav defaultActiveKey="/home" className="flex-column">
   <Nav.Link href="/home" bsStyle="primary"><i class="fa fa-fw fa-home"></i>New Feeds</Nav.Link>
@@ -17,6 +18,35 @@ class Sidebar extends Component {
   </Nav.Link>
 </Nav>;
 </div>
+
+      <ListGroup> 
+      <ListGroup.Item action variant="info">
+    Light
+  </ListGroup.Item>
+  <ListGroup.Item action variant="info">
+    Light
+  </ListGroup.Item>
+  <ListGroup.Item action variant="info">
+    Light
+  </ListGroup.Item>
+  <ListGroup.Item action variant="info">
+    Light
+  </ListGroup.Item>
+  <ListGroup.Item action variant="info">
+    Light
+  </ListGroup.Item>
+  <ListGroup.Item action variant="info">
+    Light
+  </ListGroup.Item>
+  <ListGroup.Item action variant="info">
+    Light
+  </ListGroup.Item>
+  <ListGroup.Item action variant="info">
+    Light
+  </ListGroup.Item>
+
+      </ListGroup>
+
       </div>
     );
     }
