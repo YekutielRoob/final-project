@@ -3,7 +3,7 @@ import './App.css';
 import Navbar from "./component/navbar/navbar.js"
 import Searchbar from './component/navbar/searchbar';
 import Sidebar from './component/navbar/Sidebar';
-import Counter from './component/navbar/counter';
+
 
 
 
