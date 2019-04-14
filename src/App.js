@@ -1,26 +1,32 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import logo from './Facebook.svg';
+import icon from './intro-icon.jpg';
 import './App.css';
-
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
+        
+        
+        
+        
+      
           <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+          
+         
+         
+          <div className="intro">
+          <p><img src={icon}></img>Intro</p>
+          <h4>Hometown: Tel-Aviv</h4>
+          <h5>Current city: Ramat-Gan</h5>
+          <h6>Relationship status: Married</h6>
+          </div> 
+          
+</div>          
+
+
+    
+          
     );
   }
 }
