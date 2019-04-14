@@ -60,7 +60,17 @@ display:inline;
  border-radius: 25%;
 }
 .listgroup{
-  margin-right:300px;
+  margin-right:1200px;
   padding: 0;
   
+}
+.inputbox{
+  size: 200px;
+  background-color: black;
+  display: block;
+
+}
+
+.model{
+
 }

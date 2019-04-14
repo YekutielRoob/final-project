@@ -3,6 +3,9 @@ import './App.css';
 import Navbar from "./component/navbar/navbar.js"
 import Searchbar from './component/navbar/searchbar';
 import Sidebar from './component/navbar/Sidebar';
+import PostPage from './PostPage';
+
+import Counter from './component/Counter';
 
 
 
@@ -12,9 +15,11 @@ class App extends Component {
       <div className="App">
        
          <Navbar />
-         <Searchbar/>
-        <Sidebar/>
-         
+         <Searchbar />
+         <Sidebar />
+         <PostPage />
+         <Counter />
+       
       </div>
     );
   }
