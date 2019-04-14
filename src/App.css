@@ -12,12 +12,13 @@ img {
   width: 35px;
   height: auto;
   top: 0;
+  border:2px solid white;
 }
 .Logo {
   width: 30px;
   height: 35px;
-  margin-left:10px;
-  top:0;
+  margin-left:40px;
+  top:1px;
   position: relative;
 }
 
@@ -25,14 +26,14 @@ img {
 
   position: relative;
   height: 38px;
-  width: 230px;
+  width: 400px;
   color: white;
   top:-5;
   margin-left: 100px;
 
 }
 .searchbutton {
-  margin-left:250px;
+  margin-left:400px;
   margin-top:6px;
   height:26px;
   width: auto;
@@ -55,10 +56,96 @@ display:inline;
 .Button{
   width: 100px;
   height: 27px;
+  padding: 5px;
   font-size: 16px;
  margin:5px;
  border-radius: 25%;
 }
+
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./component/picture/beach.jpg");
+
+
+  /* Set a specific height */
+  height:320px;
+  
+
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1200px 300px;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 75%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+p{
+  font-size: 24px;
+}
+.Buttonshero{
+margin-left: 880px;
+font-size: 18px;
+
+
+
+}
+.avatar {
+  vertical-align: middle;
+  width: 170px;
+  height: 160px;
+  border-radius: 50%;
+  position: relative;
+  margin-left: 200px;
+  margin-top: 60px;
+}
+ the sidebar fixed full height 
+.sidebar {
+  height: 300px;
+  width: 160px;
+  position:fixed;
+  z-index: 1;
+  top: 1;
+  left: 0;
+  overflow-x: hidden;
+  padding-top:16px;
+}
+
+/* Style sidebar links */
+.sidebar a {
+  margin-top: 30px;
+  margin-left: 6px;
+  padding: 6px 6px 6px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+}
+
+/* Style links on mouse-over */
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+/* Style the main content */
+.main {
+  margin-top: 200px;
+  margin-left: 160px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+}
+
+/* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+
 .listgroup{
   margin-right:300px;
   padding: 0;

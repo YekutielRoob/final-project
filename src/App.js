@@ -9,17 +9,22 @@ import Counter from './component/Counter';
 
 
 
+
+
+
 class App extends Component {
   render() {
     return (
       <div className="App">
        
-         <Navbar />
-         <Searchbar />
-         <Sidebar />
+
+       
+         <Navbar />   
+         <Searchbar/>
+        <Sidebar/>
          <PostPage />
          <Counter />
-       
+     
       </div>
     );
   }
