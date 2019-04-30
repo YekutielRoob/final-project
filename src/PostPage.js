@@ -4,6 +4,10 @@ import Form from 'react-bootstrap/Form'
 
 import  Button from 'react-bootstrap/Button';
 
+import Counter from './component/Counter';
+import FileInput from './component/FileInput';
+
+
 class PostPage extends Component {
  render() {
    return(
@@ -26,7 +30,9 @@ class PostPage extends Component {
                 <Button variant="primary">Save changes</Button>
                 <Button variant="primary">Save changes</Button>
                 <Button variant="primary">Save changes</Button>
-                <Button variant="primary">Save changes</Button>
+                <Button type="file">file</Button>
+                <FileInput />
+                <Counter />
             </Modal.Footer>
         >
         </a>

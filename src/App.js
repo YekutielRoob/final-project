@@ -21,9 +21,8 @@ class App extends Component {
        
          <Navbar />   
          <Searchbar/>
-        <Sidebar/>
+         <Sidebar/>
          <PostPage />
-         <Counter />
      
       </div>
     );

@@ -19,34 +19,6 @@ class Sidebar extends Component {
 </Nav>;
 </div>
 
-      <ListGroup> 
-      <ListGroup.Item action variant="info">
-    Light
-  </ListGroup.Item>
-  <ListGroup.Item action variant="info">
-    Light
-  </ListGroup.Item>
-  <ListGroup.Item action variant="info">
-    Light
-  </ListGroup.Item>
-  <ListGroup.Item action variant="info">
-    Light
-  </ListGroup.Item>
-  <ListGroup.Item action variant="info">
-    Light
-  </ListGroup.Item>
-  <ListGroup.Item action variant="info">
-    Light
-  </ListGroup.Item>
-  <ListGroup.Item action variant="info">
-    Light
-  </ListGroup.Item>
-  <ListGroup.Item action variant="info">
-    Light
-  </ListGroup.Item>
-
-      </ListGroup>
-
       </div>
     );
     }
