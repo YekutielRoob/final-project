@@ -8,10 +8,28 @@ import Counter from './component/Counter';
 import FileInput from './component/FileInput';
 
 
+
 class PostPage extends Component {
+
+  constructor() {
+    super();
+
+    this.newPostValue = '';
+  }
+
+  onSubmit(e) {
+    e.preventDefault();
+    fetch('/posts', {
+      method: 'POST',
+      body: JSON.stringify({
+        title: this.newPostValue,
+      })
+    });
+  }
+
  render() {
    return(
-<div>
+      <div>
 
         <Modal.Dialog>   
             <a className="model">
@@ -20,18 +38,15 @@ class PostPage extends Component {
             </Modal.Header>
 
             <Modal.Body>
-            <Form.Group controlId="exampleForm.ControlTextarea1">
-    <Form.Label>what's on your mind?</Form.Label>
-    <Form.Control as="textarea" rows="3" />
-  </Form.Group>
+              <Form.Group controlId="exampleForm.ControlTextarea1">
+                <Form.Label>what's on your mind?</Form.Label>
+                <Form.Control as="textarea" rows="3" onChange={e => this.newPostValue = e.target.value}/>
+                <Button type="submit" onClick={e => this.onSubmit(e)}>Submit</Button>
+              </Form.Group>
             </Modal.Body>
 
             <Modal.Footer>
-                <Button variant="primary">Save changes</Button>
-                <Button variant="primary">Save changes</Button>
-                <Button variant="primary">Save changes</Button>
-                <Button type="file">file</Button>
-                <FileInput />
+                <Button variant="primary">share</Button>
                 <Counter />
             </Modal.Footer>
         >

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {fetchUsers, createUser, deleteUser} from "../UsersService";
 
 
 
@@ -19,11 +20,7 @@ class FileInput extends React.Component {
   
     render() {
       return (
-        <form onSubmit={this.handleSubmit}>
-          <label>
-            Upload file:
-            <input type="file" ref={this.fileInput} />
-          </label>
+        <form onSubmit={(e) => this.handleSubmit(e)}>
           <br />
           <button type="submit">Submit</button>
         </form>
