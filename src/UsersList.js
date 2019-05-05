@@ -24,3 +24,4 @@ export class UsersList extends Component {
 		);
 	}
 }
+export default UsersList

@@ -5,7 +5,9 @@ import Searchbar from './component/navbar/searchbar';
 import Sidebar from './component/navbar/Sidebar';
 import PostPage from './PostPage';
 
+import UsersList from './UsersList'
 import Counter from './component/Counter';
+import { Feed } from './component/feed compnent';
 
 
 
@@ -23,6 +25,8 @@ class App extends Component {
          <Searchbar/>
          <Sidebar/>
          <PostPage />
+         <Feed />
+         <UsersList />
      
       </div>
     );
